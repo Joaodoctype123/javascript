@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfandega</title>
+</head>
+<body>
+    <h1>Sistema da Alfandega</h1>
+    Qual seu País ? : <input type="text" name="text" id="text">
+    <input type="button" value="Verificar" id="button" onclick="aprovar()" >
+    <div id="resultado">
+    
+    </div>
+    <script>
+        function aprovar() {
+            var text = window.document.querySelector('input#text')
+            var resultado = window.document.querySelector('div#resultado')
+            var text = String(text.value)
+            
+            if (text == 'Brasil'){
+                resultado.innerHTML = `Você mora em ${text} sua nacionalidade é Brasileiro(a) !`
+            } else {
+                resultado.innerHTML = `Você é Estrangeiro`
+            }
+
+        }
+        
+    </script>
+</body>
+</html>
