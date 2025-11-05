@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: 'login';
+    src: url('fonts/Paris\ Forbel\ TTF.ttf')format('truetype')
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     height: 95vh;
@@ -6,6 +9,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-image: url('imagens/natureza-high.jpg');
+    background-position: center center;
 }
 .body-login {
     width: 500px;
@@ -16,17 +21,22 @@ header {
     text-align: center;
     font-size: 20px;
 }
+header h1 {
+    font-family: 'login';
+    font-weight: bold;
+    font-size: 60px;
+
+}
 input#login {
-    width: px;
-    background-color: rgba(0, 132, 255, 0.144);
-    border: solid 1,7px black;
+    padding: 2px 5px 2px 5px;
+    background-color: transparent;
     border-radius: 5px;
 }
 
 input#create {
     background-color: transparent;
-    border: solid 1,7px black;
     border-radius: 5px;
+    padding: 2px 5px 2px 5px;
 
 }
 
