@@ -7,32 +7,57 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
-.div-back {
-    filter: blur(10px);
-    background-color: black;
-}
 .body-login {
     width: 500px;
+    margin: auto;
     text-align: center;
-    
-
-
+}
+header {
+    text-align: center;
+    font-size: 20px;
 }
 input#login {
-
-
+    width: px;
+    background-color: rgba(0, 132, 255, 0.144);
+    border: solid 1,7px black;
+    border-radius: 5px;
 }
 
 input#create {
+    background-color: transparent;
+    border: solid 1,7px black;
+    border-radius: 5px;
 
 }
 
 input#email {
-    display: inline;
-
+    border-radius: 10px;
+    width: 250px;
+    height: 25px;
+    margin: auto;
+    display: block;
+    padding-left: 10px;
+    margin-bottom: 5px ;
+    background-color: transparent;
+    border: solid 2px white;
 }
 
 input#password {
-    display: inline-block;
+    border-radius: 10px;
+    width: 250px;
+    height: 25px;
+    margin: auto;
+    display: block;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border: solid 2px white;
+    background-color: transparent;
 }
-
+input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-style: italic;
+}
+footer {
+    margin: auto;
+    
+}
