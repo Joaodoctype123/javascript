@@ -58,6 +58,15 @@ input::placeholder {
     font-style: italic;
 }
 footer {
+    margin-top: 100px;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.678), transparent);
+    margin: 100px 0px 0px 0px;
+    border: solid 1.9px black;
+    border-radius: 3px;
+}
+footer p{
+    padding: 3px ;
+    text-align: center;
     margin: auto;
     
 }
