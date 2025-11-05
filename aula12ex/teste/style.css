@@ -4,10 +4,12 @@ body {
     height: 95vh;
     background-image: linear-gradient(to bottom, blue, pink);
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
+    background-attachment: fixed;
 }
 .div-back {
     filter: blur(10px);
+    background-color: black;
 }
 .body-login {
     width: 500px;
