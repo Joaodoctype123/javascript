@@ -2,6 +2,10 @@
     font-family: 'login';
     src: url('fonts/Paris\ Forbel\ TTF.ttf')format('truetype')
 }
+* {
+    padding: 0px;
+    margin: 0px;
+}
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -111,7 +115,7 @@ footer {
     border-radius: 3px;
     background-attachment: fixed;
     backdrop-filter: blur(1px);
-    margin-top: 300px;
+    
     
 }
 footer p{
