@@ -9,7 +9,6 @@ function carregar() {
     var hoje = today.getDate()
     paragraph.innerHTML = (`Hoje é dia ${hoje} / 11 !`)
     msg.innerHTML = (`Agora são ${hora} horas !`)
-    var hora = 22
     if (hora >= 3 && hora  && hora <= 12){
         // BOM DIA !
         msg.innerHTML = (`São ${hora} hora(s) Bom dia, <strong>Vamos tomar café !</strong>`)
