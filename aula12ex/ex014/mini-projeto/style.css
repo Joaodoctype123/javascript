@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'Good' ;
-    src: url('fonts/ChettaVissto.ttf')format('truetype')
+    src: url('fonts/ChettaVissto.ttf')format('truetype');
 }
 body {
     background: rgb(35, 102, 190);
