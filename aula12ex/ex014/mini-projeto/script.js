@@ -13,11 +13,14 @@ function carregar() {
         // BOM DIA !
         msg.innerHTML = (`São ${hora} hora(s) Bom dia, <strong>Vamos tomar café !</strong>`)
         img.src = 'foto-manha.jpg'
+        document.body.style.backgroundColor = '#61B7F6'
     } else if (hora >= 12 &&  hora < 18) {
         // BOA TARDE !
         msg.innerHTML = (`São ${hora} hora(s) Boa tarde, <strong>Vamos almoçar !</strong>`)
         img.src = 'foto-tarde.jpg'
+        document.body.style.backgroundColor = '#FC8054'  
     } else {
+        document.body.style.backgroundColor = '#17262F' 
         msg.innerHTML = (`São ${hora} hora(s) Boa noite, <strong>Vamos jantar !</strong>`)
         // BOA NOITE !
         img.src = 'foto-noite.jpg'

@@ -11,29 +11,57 @@ body {
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 header {
-    font
+    background-color: darkcyan;
 
 }
 header h1 {
+    font-family: 'nature';
+    text-align: center;
+    font-size: clamp(1.5rem, 7vw, 3rem);
 
 }
-nav {zzzz
+nav {
+    background-color: darkgoldenrod;
+
 
 }
 .body-login {
-
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    backdrop-filter: blur(4px);
+    box-shadow: inset 2px 0px 20px 0px rgba(0, 0, 0, 0.459);
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    border-radius: 7px;
 
 }
 
 input#email {
-
+    text-align: cent;
+    display: block;
+    width: 200px;
+    border-radius: 7px;
+    backdrop-filter: blur(3px);
+    background-color: transparent;
+    height: 20px;
+    margin-top: 10px;
 }
 input#password {
-
+    display: block;
+    width: 200px;
+    border-radius: 7px;
+    backdrop-filter: blur(3px);
+    background-color: transparent;
+    height: 20px;
+    margin-top: 10px;
 }
 p#join {
 
@@ -41,7 +69,18 @@ p#join {
 .login-back {
 
 }
-section#back-follows {
-
-
+.back-follows {
+    
+    backdrop-filter: blur(3px);
+    background-color: blanchedalmond;
+    max-width: 500px;
+    margin: auto;
+}
+.follows {
+    padding: 3px;
+    max-width: 50px;
+    transition: 0.3s ease-out;
+}
+.follows:hover {
+    transform: scale(1.3);
 }
